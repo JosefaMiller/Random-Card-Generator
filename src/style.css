@@ -1,1 +1,51 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: rgb(255, 228, 243);
+  box-sizing: border-box;
+  display: flex;
+  padding-top: 10%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: inline-block;
+  background: white;
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid black;
+  position: relative;
+}
+.top-suit {
+  position: absolute;
+  top: -15px;
+  left: 10px;
+  font-size: 100px;
+}
+.bottom-suit {
+  position: absolute;
+  bottom: -15px;
+  right: 10px;
+  font-size: 100px;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  padding-top: 50%;
+  font-size: 120px;
+}
+button {
+  height: 50px;
+  color: #ffffff;
+  background-color: #6b173a;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: "Amaranth", sans-serif;
+}
+button:hover {
+  background-color: #d1789a;
+  color: #1d1d1d;
+  font-family: "Amaranth", sans-serif;
+}
