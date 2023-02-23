@@ -30,7 +30,6 @@ window.onload = function() {
       document.querySelector(".bottom-suit").innerHTML = randomSymbol;
       if (randomSymbol == "♥" || randomSymbol == "♦") {
         document.querySelector(".card").style.color = "red";
-        // si no cumple lo de arriba sera alguno de estos simbolos con el color negro
       } else if (randomSymbol == "♠" || randomSymbol == "♣") {
         document.querySelector(".card").style.color = "black";
       }
